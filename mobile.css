@@ -78,6 +78,10 @@
         font-size: 1rem;
     }
 
+    .painel-school img {
+        max-width: 100%;
+    }
+
     /* SESSÃO MAPA */
 
     .painel-map {
