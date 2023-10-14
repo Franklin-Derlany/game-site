@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,24 +10,32 @@
     <title>Site Responsivo</title>
 </head>
 <body>
-    <header> <!-- SESSÃO DE NAVEGAÇÃO -->
+    
+    <!-- SESSÃO DE NAVEGAÇÃO -->
+    <header>
         <nav class="nav-bar">
-            <div class="logo">
-                <h1>Logo</h1>
-            </div>
+            <h1>Magic <span>World</span></h1>
 
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Inicio</a>
+                    <li>
+                        <a href="#historia">História</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Sobre</a>
+                    <li>
+                        <a href="#lideres">Lideres</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Projetos</a>
+                    <li>
+                        <a href="#cidade">Cidade</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Raças</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Trabalhos</a>
                     </li>
                 </ul>
             </div>
@@ -37,15 +45,33 @@
             </div>
 
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="hamburger-menu-icon-png-white-10.jpg" alt=""></button>
+                <button onclick="menuShow()">
+                    <img class="icon" src="menu-hamburger.png" alt="">
+                </button>
             </div>
         </nav>
 
         <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li>
+                    <a href="#">História</a>
+                </li>
+
+                <li>
+                    <a href="#">Lideres</a>
+                </li>
+
+                <li>
+                    <a href="#">Cidade</a>
+                </li>
+
+                <li>
+                    <a href="#">Raças</a>
+                </li>
+
+                <li>
+                    <a href="#">Trabalhos</a>
+                </li> 
             </ul>
 
             <div class="login-button">
@@ -53,179 +79,108 @@
             </div>
         </div>
     </header>
-
-    <main>
-        <!-- SESSÃO ESCOLA -->
-        <section class="painel-school">
-                <h1>Um novo reino</h1>
-                <p>
-                    Cada reino terá uma escola de magia onde <strong>TODOS</strong> os habitantes <strong>OBRIGATORIAMENTE</strong> precisaram passar por lá para se formarem como bruxos.
-                </p>
-                <p class="last-p">
-                    Durante a semana acontecerá Aulas de várias matérias como por exemplo: <span>poções, defesa e attack, vôo de vassoura, esportes, leis e deveres bruxos</span> e etc...
-                </p>
-
-                <div class="img-school">
-                    <img src="imagens/img-school.jpg" alt="">
-                </div>
-        </section>
-        
-        <!-- SESSÃO MAPAS -->
-        <section class="painel-map">  
-                <h1>O Mapa</h1>  
+  
+    <!-- SESSÃO ESCOLA -->
+    <section class="container-historia" id="historia">
+        <div class="painel-esquerdo">
+            <h1>História</h1>
             <p>
-                Mas além das escolas, nos reinos vocês encontraram todo tipo de comercio, desde legal, <span>como lojas de varinhas, vassouras, porções, livros, roupas, restaurantes, hoteis</span> e etc..
+                Uma cidade 100% sobrenatural! <br>
+                Aqui você terá uma imersão no mundo de Magic World, e poderá fazer inúmeras amizades e infinitas possibilidades de RP.
             </p>
+        </div>
 
-            <p class="last-p">
-                Assim como no ilegal no <span>"The Alley"</span> , um local escuro, sombrio e frio, onde você vai encontrar poções proibidas e até humanos para servirem de alimentos para vampiros!
-            </p>
-            <div class="mapa">
-                <div>
-                    <img src="imagens/imagem-city.jpg" alt="mapa">
-                </div>
+        <img src="imagens/historia-img.webp" alt="">
+    </section>
 
-                <div class="comercio">
-                    <div class="img-comercio">
-                        <img src="imagens/the-alley.jpg" alt="alley-map">
-                    </div>
-                    <div class="img-comercio">
-                        <img src="imagens/the-village.jpg" alt="village-map">
-                    </div>
-                </div>
+    <!-- SESSÃO LIDERES -->
+    <section class="container-lideres" id="lideres">
+        <div class="lider-norte">
+
+            <div class="lider">
+                <h2><span>Lider</span> do Norte</h2>
+                
+                <img src="imagens/Lider-norte.webp" alt="Lider-do-norte">
+
+                <p>O Mestre das Sombras do Norte
+                Preparem-se para conhecer um líder verdadeiramente poderoso e perverso, cujo objetivo é nada menos do que a conquista das artes das trevas e a dominação do Norte da cidade. Este enigmático e temível personagem é conhecido como "O Mestre das Sombras do Norte."
+                    <br>
+                    Nome verdadeiro, origens e identidade deste líder permanecem envoltos em mistério, como as sombras que ele controla. O Mestre das Sombras surgiu das profundezas do desconhecido, um mestre em ocultismo e magia negra, que traçou um plano ambicioso: subjugar toda a região setentrional da cidade sob seu domínio sombrio.
+                    <br>
+                    Dotado de habilidades sobrenaturais que desafiam a imaginação, ele tece feitiços e invocações macabras para alcançar seus objetivos cruéis. Seus seguidores, leais e dedicados, são atraídos por seu poder sobrenatural e pela promessa de riquezas e poder em um mundo mergulhado em trevas.
+                    <br>
+                    O Mestre das Sombras não se contenta com o mero domínio territorial. Sua ambição se estende ao controle absoluto das forças das trevas e ao domínio total da cidade. Para isso, ele emprega estratégias sinistras e conspirações que ameaçam a paz e a ordem.
+                    <br>
+                    Sua presença imponente é marcada por um manto negro que o envolve, e seus olhos brilham com uma luz maligna, capaz de hipnotizar e subjugar aqueles que ousam cruzar seu caminho. Ele governa com punho de ferro, espalhando medo e corrupção por onde passa.
+                    <br>
+                    A batalha contra o Mestre das Sombras promete ser uma luta épica entre a luz e as trevas, a esperança e o desespero. A cidade do Norte está em perigo, e apenas os mais corajosos e determinados poderão desafiar este líder sinistro e restaurar a ordem perdida.
+                    <br>
+                    Prepare-se para uma história repleta de reviravoltas, magia negra e coragem inabalável, enquanto aqueles que ousam enfrentar o Mestre das Sombras do Norte buscam salvar a cidade das trevas que ameaçam engoli-la por completo.</p>
+                    <br>
             </div>
-        </section>
-
-        <!-- SESSÃO RAÇAS -->
-        <section class="painel-classes">
-            <h1>Classes</h1>
-
-            <div class="cards">
-                <div class="card-legenda">
-                    <h3>Bruxos</h3>
-                    <div class="description">
-                                <ul>
-                                    <li>Usam magia</li>
-                                    <li>Podem se transfigurar em Animais</li>
-                                    <li>Teletransportam</li>
-                                </ul>
-
-                    </div>
-
-                    <div class="img-card"><img src="imagens/bruxo.jpg" alt=""></div>
-                </div>
-
-                <div class="card-legenda">
-                    <h3>Vampiro</h3>
-                    <div class="description">
-                            <ul>
-                                <li>Usam magia</li>
-                                <li>Se alimetam de sangue</li>
-                                <li>Podem se transfigurar somente em morcegos</li>
-                                <li>Super velocidade</li>
-                                <li>Só saem durante o dia com magia de proteção de algum objeto</li>
-                            </ul>
-                    </div>
+        </div>
         
-                    <div class="img-card"><img src="imagens/vampira.jpg" alt=""></div>
-                </div>
+        <div class="lider-sul">
 
-                <div class="card-legenda">
-                    <h3>Lobisomens</h3>
-                    <div class="description">
-                                <ul>
-                                    <li>Usam magia</li>
-                                    <li>Transforma em lobo</li>
-                                    <li>Não se transfigura</li>
-                                    <li>Super Força</li>
-                                    <li>Sua mordida pode transformar um bruxo em Lobisomem</li>
-                                    <li><strong>Em noites de lua cheia não pode sair da floresta até o dia amanhecer</strong></li>
-                                    <li>Sofrem preconceito</li>
-                                </ul>
-                    </div>
-        
-                    <img src="imagens/lobisomem.jpg" alt="">
-                </div>
+            <div class="lider">
+                <h2><span>Lider</span> do Sul</h2>
 
-                <div class="card-legenda">
-                    <h3>Sereias</h3>
-                    <div class="description">
-                            <ul>
-                                <li>Usam magia</li>
-                                <li>Respiram em baixo D'água</li>
-                                <li>Canto Hipnótico</li>
-                                <li>Super velocidade na água</li>
-                                <li>Podem se transfigurar somente em animais peixes.</li>
-                            </ul>
-                    </div>
-        
-                    <img src="imagens/sereia.jpg" alt="">
-                </div>
+                <img src="imagens/Lider-sul.webp" alt="Lider-do-sul">
 
-                <div class="card-legenda">
-                    <div class="description-segundaSessão">
-                        <h3>Fadas</h3>
-                            <ul>
-                                <li>Usam magia</li>
-                                <li>Voam</li>
-                                <li>Alto poder de cura</li>
-                                <li>Protegem a natureza junto com os Centauros</li>
-                                <li>Não se transfiguram.</li>
-                            </ul>
-                    </div>
-        
-                    <img src="imagens/fada.jpg" alt="">
-                </div>
-
-                <div class="card-legenda">
-                    <div class="description-segundaSessão">
-                        <h3>Elfos</h3>
-                            <ul>
-                                <li>Usam magia sem varinha</li>
-                                <li>Teletransportam</li>
-                                <li>Ficam invisíveis por curta duração de tempo</li>
-                                <li>Não se transfiguram.</li>
-                            </ul>
-                    </div>
-        
-                    <img src="imagens/elfos.jpg" alt="">
-                </div>
-
-                <div class="card-legenda">
-                    <div class="description-segundaSessão">
-                        <h3>Gigantes</h3>
-                            <ul>
-                                <li>Não usam magia</li>
-                                <li>Maior força</li>
-                                <li>Maior resistencia</li>
-                                <li>Possuem as Melhores armas.</li>
-                            </ul>
-                    </div>
-        
-                    <img src="imagens/gigant.jpg" alt="">
-                </div>
-
-                <div class="card-legenda">
-                    <div class="description-segundaSessão">
-                        <h3>Centauros</h3>
-                            <ul>
-                                <li>Usam somente magia de cura</li>
-                                <li>Super resistencia</li>
-                                <li>Super velocidade</li>
-                                <li>Estrategistas.</li>
-                            </ul>
-                    </div>
-
-                    <img src="imagens/centauro.jpg" alt="">
-                </div>
+                <p>É com grande honra que apresentamos a vocês um líder verdadeiramente notável, alguém que personifica a bondade, a coragem e a fidelidade em sua busca incansável pela paz no incrível mundo de Magic World. Este líder inspirador é conhecido por muitos como "O Líder da Paz."
+                <br>
+                Nascido de uma linhagem de heróis e guiado por um profundo senso de responsabilidade para com seu povo e o mundo em que vive, o Líder da Paz se destaca por sua impressionante capacidade de unir pessoas de diferentes raças, culturas e reinos em busca de um objetivo comum: a paz duradoura.
+                <br>
+                Seu carisma é tão poderoso quanto sua compaixão, e ele é conhecido por ser um ouvinte atencioso, capaz de mediar conflitos e encontrar soluções pacíficas para os problemas mais complexos. Sua liderança é fundamentada na justiça e na igualdade, e ele trabalha incansavelmente para eliminar as divisões e promover a harmonia em Magic World.
+                <br>
+                A coragem do Líder da Paz é lendária. Ele não hesita em enfrentar ameaças sombrias e obscuras que ameaçam a estabilidade do mundo mágico. Com sua espada brilhante da justiça e seu escudo de compaixão, ele enfrenta perigos incalculáveis, sempre buscando proteger os inocentes e defender os valores da paz e da cooperação.
+                <br>
+                A fidelidade do Líder da Paz ao seu propósito é inquebrável. Ele nunca se desvia do caminho da retidão e da bondade, servindo como um farol de esperança para todos em Magic World. Seus seguidores o admiram não apenas por seu poder, mas também por sua integridade inabalável.
+                <br>
+                Com determinação inigualável, o Líder da Paz continua sua jornada para promover a harmonia em Magic World, buscando um futuro onde todas as criaturas mágicas possam coexistir pacificamente. Sua história é um conto inspirador de como a bondade, a coragem e a fidelidade podem verdadeiramente mudar o mundo para melhor.
+                <br>
+                Junte-se a ele nesta missão épica para construir um Magic World de paz, união e prosperidade, onde a magia floresce e o bem prevalece sobre as trevas.</p>
+                <br>
             </div>
-        </section>
+        </div>
         
-    </main>
+        <div class="lider-centro">
 
-    <footer>
+            <div class="lider">
+                <h2><span>Lider</span> do Centro</h2>
 
-    </footer>
+                <img src="imagens/Lider-Centro.webp" alt="Lider-do-centro">
+                
+                <p>A Feiticeira do Centro de Magic World
+                    <br>
+                    Adentremos no mágico mundo de Magic World e deixem-se encantar por uma figura enigmática que habita o coração da cidade, uma feiticeira cujos segredos e objetivos permanecem envoltos em um véu de mistério. Ela é conhecida simplesmente como "A Feiticeira do Centro."
+                    <br>
+                    A Feiticeira do Centro é uma presença cativante e misteriosa, que fascina a todos que cruzam seu caminho. Sua morada é um palácio antigo, envolto em magia e lendas. Diz-se que ela é guardiã de antigas relíquias mágicas e conhecimentos proibidos, cujo poder é desconhecido até mesmo para os mais sábios magos.
+                    <br>
+                    Seus objetivos, no entanto, são um enigma profundo. Alguns acreditam que ela busca desvendar os segredos mais obscuros da magia, enquanto outros acreditam que ela busca a paz e a harmonia para Magic World, apesar de seus métodos misteriosos. Ela é uma figura enigmática que inspira tanto temor quanto admiração.
+                    <br>
+                    Lendas cercam a Feiticeira do Centro. Diz-se que ela é imortal, que conversa com espíritos antigos e que possui o dom da previsão. Alguns acreditam que ela é a chave para desvendar os maiores segredos do mundo mágico, enquanto outros a veem como uma guardiã das tradições e histórias da cidade.
+                    <br>
+                    Sua aparência é igualmente enigmática, com longos cabelos prateados e olhos que parecem refletir o cosmos. Ela é vestida com um manto de estrelas que brilha suavemente, deixando todos que a veem intrigados e maravilhados.
+                    <br>
+                    Embora sua verdadeira natureza e intenções permaneçam um mistério, uma coisa é certa: a Feiticeira do Centro de Magic World é uma personagem cativante e mágica, cuja presença lança uma aura de mistério e maravilha sobre o coração da cidade. Ela permanece como um enigma que desafia até mesmo os maiores estudiosos da magia, mantendo seu lugar na rica tapeçaria de lendas de Magic World.</p>
+                    <br>
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- SESSÃO CIDADE -->
+    <section class="container-city" id="cidade">
+        <h1>Cidade</h1>
+        <p>Aqui vamos falar sobre a cidade, principalmente as suas regiões o que tem nelas</p>
+
+        <div class="container-map">
+            <img src="imagens/GTAV_Map.jpg.crdownload" alt="">
+            <img src="imagens/GTAV_Map.jpg.crdownload" alt="">
+        </div>
+    </section>
+
 
     <script src="index.js"></script>
 </body>

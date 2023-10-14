@@ -6,10 +6,11 @@ function menuShow() {
     
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
-        document.querySelector('.icon').src = "hamburger-menu-icon-png-white-10.jpg";
+        document.querySelector('.icon').src = "menu-hamburger.png"
+
     } else {
         menuMobile.classList.add('open');
-        document.querySelector('.icon').src = "img_255345.png"
+        document.querySelector('.icon').src = "x-menu.png"
     }
 }
 
